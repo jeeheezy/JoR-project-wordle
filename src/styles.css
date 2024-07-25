@@ -186,6 +186,18 @@ h1 {
   color: white;
 }
 
+.restart {
+  outline: 2px solid white;
+  padding: 5px;
+  border-radius: 3px;
+  margin: 5px;
+}
+
+.restart:hover {
+  outline-color: var(--color-gray-700);
+  color: var(--color-gray-700);
+}
+
 .visually-hidden {
   position: absolute;
   overflow: hidden;
